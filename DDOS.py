@@ -29,7 +29,6 @@ def attack():
         s.close()
         already_connected += 1
         print(f"Connections made: {already_connected}")
-        time.sleep(0.1)
 
 for i in range(100):
     thread = threading.Thread(target=attack)
